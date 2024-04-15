@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crushed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+</head>
+<div class="container1">
+    <a href="minitv.html"><img src="minitvlogo.png" class="logo" ></a>
+    <div class="navbar">
+        <a style="color:rgb(243, 12, 147);margin-left:60px" href="minitv.html">Home</a>
+        <a>Web-Series</a>
+        <a>Movies</a>
+        <a>Comedy</a>
+    </div>
+<div>
+    <ion-icon name="settings-outline" style="margin-top:20px;padding-right:100px"></ion-icon>
+
+</div>
+</div>
+<body>
+    <div id="display2" class="container5">
+        <img src="./imagesshows/img2.jpg" style="opacity: 0.1; height:400px; width:100%" >
+        <div id="pa2"></div>
+        
+    </div>
+    <script>
+        const displaydetails2=document.getElementById("display2");
+
+    
+        onload=function displayc2(){
+            var t2=this.document.createElement("div");
+            var d2=this.document.createElement("text");
+            d2.innerHTML="Crushed";
+            t2.classList.add("ttl");
+            t2.appendChild(d2);
+            displaydetails2.appendChild(t2);
+            var pa2=this.document.getElementById("pa2")
+            var p2=document.createElement("p");
+            p2.innerHTML="As they shape their future and evolve as individuals,<br> immerse themselves in an upcoming inter school fest and prepare<br> for their 10th board exams.";
+            p2.classList.add("para");
+            pa2.appendChild(p2);
+            displaydetails2.appendChild(pa2);
+            
+            var i2=this.document.createElement("div");
+            var img2=document.createElement("img");
+            img2.src="./imagesshows/img2.jpg";
+            img2.classList.add("imgs");
+            i2.appendChild(img2);
+            displaydetails2.appendChild(i2);
+        }    
+          
+    </script>
+    <script   type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+    
+</html>

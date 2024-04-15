@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mini TV-Watch Free Web Series,Movies and Short Films </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container1" id="1">
+    <a href="minitv.html"><img src="minitvlogo.png" class="logo" ></a>
+    <div class="navbar">
+        <a style="color:rgb(243, 12, 147);margin-left:60px" href="minitv.html" type="button">Home</a>
+        <a onclick="alert()">Web-Series</a>
+        <a>Movies</a>
+        <a>Comedy</a>
+    </div>
+<div>
+    <ion-icon name="settings-outline" style="margin-top:20px;padding-right:100px">
+    </ion-icon>
+   
+</div>
+</div><br>
+<div class="container2">
+<div class="mySlides fade">
+<img src="./imagesshows/img1.jpg" onclick='display1()'  onload="displayc1()" style="height: 310px;width:100%;" id="img1"></div>
+<div class="mySlides fade">
+<img src="./imagesshows/img2.jpg"  onclick="display2()" onload="displayc2()"     style="height: 310px;width:100%;" id="img2"></div>
+<div class="mySlides fade">
+<img src="./imagesshows/img3.jpg" onclick="display3()" onload="displayc3()"     style="height:310px;width:100%;" id="img3"></div>
+<div class="mySlides fade"><img src="./imagesshows/img4.jpg" onclick='display4()'  onload="displayc4()" style="height: 310px;width:100%;" id="img4"></div>
+<div class="mySlides fade"><img src="./imagesshows/img5.jpg" onclick='display5()'  onload="displayc5()" style="height: 310px;width:100%;" id="img5"></div>
+<div class="mySlides fade"><img src="./imagesshows/img6.jpg" onclick='display6()'  onload="displayc6()" style="height: 310px;width:100%;" id="img6"></div>
+<a class="prev" onclick="prevSlide()">&#10094;</a>
+<a class="next" onclick="showSlides()">&#10095;</a>
+<div style="text-align:center" class="c">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+</div><br>
+<h2>Trending Top 3 on miniTV</h2><br>
+<div class="container3">
+    <div>
+    <img src="./imagesshows/img6.jpg"  class="images" id="img6" onclick='display6()'  onload="displayc6()"></div>
+    <div>
+    <img src="./imagesshows/img5.jpg" class="images" id="img5" onclick="display5()" onload="displayc5()" ></div>
+    <div>
+    <img src="./imagesshows/img4.jpg" class="images" id="img4" onclick='display4()'  onload="displayc4()"></div>
+    <div>
+    <img></div>
+</div><br>
+<h2>Popular Web Series</h2><br>
+<div class="container4">
+    <div>
+    <a >
+    <img src="./imagesshows/img1.jpg" class="images"  onclick='display1()'  onload="displayc1()" id="img1" method="POST"></div>
+    </a>
+    <div>
+    <img src="./imagesshows/img2.jpg" class="images" id="img2"  onclick="display2()" onload="displayc2()"></div>
+    <div>
+    <img src="./imagesshows/img3.jpg" class="images" id="img3" onclick="display3()" onload="displayc3()"></div>
+    <div>
+    <img></div>
+</div>
+<script src="homepage.js"></script>
+<script src="displaypage.js"></script>
+
+<script   type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

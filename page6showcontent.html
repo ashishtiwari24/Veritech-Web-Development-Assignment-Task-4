@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustlers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+</head>
+<div class="container1">
+    <a href="minitv.html"><img src="minitvlogo.png" class="logo" ></a>
+    <div class="navbar">
+        <a style="color:rgb(243, 12, 147);margin-left:60px" href="minitv.html">Home</a>
+        <a>Web-Series</a>
+        <a>Movies</a>
+        <a>Comedy</a>
+    </div>
+<div>
+    <ion-icon name="settings-outline" style="margin-top:20px;padding-right:100px"></ion-icon>
+
+</div>
+</div>
+<body>
+    <div id="display5" class="container5">
+        <img src="./imagesshows/img5.jpg" style="opacity: 0.1; height:400px;width:100%">
+        <div id="pa5"></div>
+    </div>
+    <script>
+        const displaydetails5=document.getElementById("display5");
+
+        onload=function displayc5(){
+            var t5=document.createElement("div");
+            var d5=this.document.createElement("text");
+            d5.innerHTML="Hustlers";
+            t5.classList.add("ttl");
+            t5.appendChild(d5);
+            displaydetails5.appendChild(t5);
+            var pa5=document.getElementById("pa5");
+            var p5=document.createElement("p");
+            p5.innerHTML="Amid familial rivalry, Manoj's chota bhai rises above,<br> securing a spot at the Indian Institute of Engineering through <br>intellect. Emerging as a national sensation, he disrupts the startup<br> scene, embodying the true Indian hustler spirit.";
+            pa5.classList.add("para");
+            pa5.appendChild(p5);
+            displaydetails5.appendChild(pa5);
+            var i5=document.createElement("div");
+            var img5=document.createElement("img");
+            img5.src="./imagesshows/img5.jpg";
+            img5.classList.add("imgs");
+            i5.appendChild(img5);
+            displaydetails5.appendChild(i5);
+            
+        }
+        
+    </script>
+    <script   type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+    
+</html>

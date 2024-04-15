@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeh Meri Family</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+</head>
+<div class="container1">
+    <a href="minitv.html"><img src="minitvlogo.png" class="logo" ></a>
+    <div class="navbar">
+        <a style="color:rgb(243, 12, 147);margin-left:60px" href="minitv.html">Home</a>
+        <a>Web-Series</a>
+        <a>Movies</a>
+        <a>Comedy</a>
+    </div>
+<div>
+    <ion-icon name="settings-outline" style="margin-top:20px;padding-right:100px"></ion-icon>
+
+</div>
+</div>
+<body>
+    <div id="display6" class="container5">
+        <img src="./imagesshows/img6.jpg" style="height: 400px;width:100%;opacity:0.1">
+        <div id="pa6"></div>
+    </div>
+    <script>
+        const displaydetails6=document.getElementById("display6");
+        onload=function displayc6(){
+            var t6=document.createElement("div");
+            var d6=this.document.createElement("text");
+            d6.innerHTML="Yeh Meri Family";
+            t6.classList.add("ttl")
+            t6.appendChild(d6);
+            displaydetails6.appendChild(t6);
+            var pa6=document.getElementById("pa6");
+            var p6=document.createElement("p");
+            p6.innerHTML="Set in the summer of 1998 it is a story about conflicting <br> emotions towards family members from the eyes of a twelve <br> year old.";
+            pa6.classList.add("para");
+            pa6.appendChild(p6);
+            displaydetails6.appendChild(pa6);
+            var i6=document.createElement("div");
+            var img6=document.createElement("img");
+            img6.src="./imagesshows/img6.jpg";
+            img6.classList.add("imgs");
+            i6.appendChild(img6);
+            displaydetails6.appendChild(i6);
+           }
+    </script>
+    <script   type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+    
+</html>
